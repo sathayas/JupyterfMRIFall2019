@@ -13,6 +13,7 @@ Original documents are in Jupyter notebook format. You can view files (on your b
 
 * Introduction, programming tools, Python basics (9/9)
   * [Introduction](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Intro.ipynb)
+  * [Docker & Docker image](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Docker.ipynb)
   
   
 ***
