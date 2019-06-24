@@ -1,0 +1,13 @@
+IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
+
+xhost + $IP
+
+docker run -it --rm -p 8888:8888 \
+-e DISPLAY=$IP:0 \
+-v /tmp/.X11-unix:/tmp/.X11-unix \
+-v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Notes/:/tmp/Notes  \
+-v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes \
+sathayas/python-fsl-bundle
+
+
+
