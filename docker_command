@@ -11,3 +11,11 @@ sathayas/python-fsl-bundle
 
 
 
+
+docker run -it --rm -p 8888:8888 \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Notes:/tmp/Notes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Data:/tmp/Data:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Homework:/tmp/Homework:Z \
+sathayas/python-fsl-bundle
+
