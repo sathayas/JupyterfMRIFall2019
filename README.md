@@ -15,6 +15,7 @@ Original documents are in Jupyter notebook format. You can view files (on your b
   * [Introduction](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Intro.ipynb)
   * [Docker & Docker image](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Docker.ipynb)
   * [Jupyter notebook](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Jupyter.ipynb)
+  * [Basic Python](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/BasicPython.ipynb)
   
   
 ***
