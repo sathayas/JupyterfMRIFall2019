@@ -17,6 +17,8 @@ Original documents are in Jupyter notebook format. You can view files (on your b
   * [Jupyter notebook](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Jupyter.ipynb)
   * [Basic Python](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/BasicPython.ipynb)
 * [Handling data with Python](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/HandlingData.ipynb) (9/16)  
+* NIfTI & BIDS, motion correction (9/23)
+  * [NIfTI & BIDS](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/NIfTI_BIDS.ipynb)  
   
   
 ***
