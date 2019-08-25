@@ -21,6 +21,7 @@ Original documents are in Jupyter notebook format. You can view files (on your b
   * [NIfTI & BIDS](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/NIfTI_BIDS.ipynb)  
   * [Motion correction](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/MoCor.ipynb)  
 * [Spatial normalization](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Normalization.ipynb) (9/30)  
+* [fMRIPrep](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/fMRIPrep.ipynb) (10/7)  
   
   
 ***
