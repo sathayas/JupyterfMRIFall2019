@@ -1,8 +1,18 @@
+# setting up display forwarding (for Mac)
 IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
-
 xhost + $IP
 
+# the actual docker command (for Mac)
 docker run -it --rm -p 8888:8888 \
+-e DISPLAY=$IP:0 \
+-v /tmp/.X11-unix:/tmp/.X11-unix \
+-v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Notes/:/tmp/Notes  \
+-v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes \
+-v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Data:/tmp/Data \
+sathayas/python-fsl-bundle
+
+# the actual docker command (for Mac, second container)
+docker run -it --rm -p 2020:2020 \
 -e DISPLAY=$IP:0 \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /Users/sh45474/Documents/Teaching/fMRI_Fall_2019/Notes/:/tmp/Notes  \
@@ -13,10 +23,22 @@ sathayas/python-fsl-bundle
 
 
 
+# docker command (for linux)
 docker run -it --rm -p 8888:8888 \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Notes:/tmp/Notes:Z \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes:Z \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Data:/tmp/Data:Z \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Homework:/tmp/Homework:Z \
 sathayas/python-fsl-bundle
+
+
+# docker command (for linux, second container)
+docker run -it --rm -p 2020:2020 \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Notes:/tmp/Notes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Data:/tmp/Data:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Homework:/tmp/Homework:Z \
+sathayas/python-fsl-bundle
+
+
 
