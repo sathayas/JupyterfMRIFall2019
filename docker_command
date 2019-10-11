@@ -42,9 +42,24 @@ sathayas/python-fsl-bundle
 
 
 
+# Setting up display forwarding for Windows
+# find the ip address with ipconfig for Ethernet adapter vEthernet, IPv4
+set-variable -name DISPLAY -value 192.168.213.241:0.0
 
 # docker command (for Windows)
 docker run -it --rm -p 8888:8888 `
+-e DISPLAY=$DISPLAY `
+-v /tmp/.X11-unix:/tmp/.X11-unix `
+-v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Notes:/tmp/Notes `
+-v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Codes:/tmp/Codes `
+-v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Data:/tmp/Data `
+sathayas/python-fsl-bundle
+
+
+# docker command (for Windows, second container)
+docker run -it --rm -p 2020:2020 `
+-e DISPLAY=$DISPLAY `
+-v /tmp/.X11-unix:/tmp/.X11-unix `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Notes:/tmp/Notes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Codes:/tmp/Codes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Data:/tmp/Data `
