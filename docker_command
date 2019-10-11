@@ -42,3 +42,6 @@ sathayas/python-fsl-bundle
 
 
 
+
+# docker command (for Windows)
+docker run -it --rm -p 8888:8888 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Notes:/tmp/Notes -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Codes:/tmp/Codes -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Data:/tmp/Data sathayas/python-fsl-bundle
