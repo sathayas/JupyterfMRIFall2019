@@ -53,6 +53,7 @@ docker run -it --rm -p 8888:8888 `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Notes:/tmp/Notes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Codes:/tmp/Codes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Data:/tmp/Data `
+-v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Homework:/tmp/Homework `
 sathayas/python-fsl-bundle
 
 
@@ -63,4 +64,5 @@ docker run -it --rm -p 2020:2020 `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Notes:/tmp/Notes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Codes:/tmp/Codes `
 -v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Data:/tmp/Data `
+-v C:\Users\sh45474\Documents\Teaching\fMRI_Fall_2019\Homework:/tmp/Homework `
 sathayas/python-fsl-bundle
