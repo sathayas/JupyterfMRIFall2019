@@ -24,6 +24,7 @@ Original documents are in Jupyter notebook format. You can view files (on your b
 * [fMRIPrep](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/fMRIPrep.ipynb) (10/7)  
 * [First-level analysis](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Level1.ipynb) (10/14)  
 * [Second and higher level analyses](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/Level2.ipynb) (10/21 - 10/28)  
+* [Multiple comparison correction](https://nbviewer.jupyter.org/github/sathayas/JupyterfMRIFall2019/blob/master/MultipleComparison.ipynb) (11/4)  
   
   
 ***
