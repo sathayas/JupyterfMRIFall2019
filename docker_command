@@ -23,7 +23,17 @@ sathayas/python-fsl-bundle
 
 
 
-# docker command (for linux)
+# docker command (for Linux Mint)
+docker run -it --rm --net=host --env="DISPLAY" \
+-v /home/satoru/.Xauthority:/root/.Xauthority:rw \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Notes:/tmp/Notes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Data:/tmp/Data:Z \
+-v /home/satoru/Teaching/fMRI_Fall_2019/Homework:/tmp/Homework:Z \
+sathayas/python-fsl-bundle
+
+
+# docker command (for CentOS linux at office)
 docker run -it --rm -p 8888:8888 \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Notes:/tmp/Notes:Z \
 -v /home/satoru/Teaching/fMRI_Fall_2019/Codes:/tmp/Codes:Z \
